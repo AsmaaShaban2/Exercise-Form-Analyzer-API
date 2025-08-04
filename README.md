@@ -1,4 +1,4 @@
-# Exercise-Form-Analyzer-API
+# 🏋️Exercise-Form-Analyzer-API
 A Flask-based REST API that accepts a short video (≤ 50MB), performs **2D pose estimation**, analyzes **squats** and **pushups**, and returns:
 
 - JSON summary
@@ -31,10 +31,13 @@ A Flask-based REST API that accepts a short video (≤ 50MB), performs **2D pose
 ### 2. Keypoint Smoothing
 - Applies **Exponential Moving Average (EMA)** to each keypoint to reduce jitter
   - `alpha = 0.5`: balances responsiveness with stability
-
+    
 ### 3. Repetition Detection (FSM)
 - Squat: tracks angle between **hip–knee–ankle**
 - Pushup: tracks **shoulder–elbow–wrist**
+<p align="center">
+  <img src="Exercise-Form-Analyzer-API/squat.png" alt="Detecting Landmarks" width="600"/>
+</p>
 
 ### 4. Form Checks
 | Exercise | Rule | Description |
@@ -53,7 +56,7 @@ A Flask-based REST API that accepts a short video (≤ 50MB), performs **2D pose
 
 ##  Setup Instructions
 
-###  Option 1: Run Locally (Python 3.11+)
+###  Option 1: Run Locally (Python 3.11)
 ```bash
 git clone https://github.com/asmaaelabasy22/exercise-analyzer.git
 cd exercise-analyzer
