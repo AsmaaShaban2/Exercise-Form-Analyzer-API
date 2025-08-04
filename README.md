@@ -76,8 +76,11 @@ docker run -p 5000:5000 exercise-analyzer
 ### POST /analyze
 - Accepts: multipart/form-data with a video file (≤ 50MB)
 
-Example curl:``` curl -X POST http://127.0.0.1:5000/analyze \
-     -F video=@demo/squat.mp4 ```
+Example curl:
+``` curl -X POST http://127.0.0.1:5000/analyze \
+     -F video=@demo/squat.mp4
+```
+
 Example json:
 ```{
   "video_id": "abc-123...",
