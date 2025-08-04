@@ -1,0 +1,3 @@
+frame_index,exercise,rep_id,is_form_ok,angles,issues
+48,squat,1,False,{'knee': np.float64(160.75467003058893)},['INSUFFICIENT_DEPTH']
+129,squat,2,False,{'knee': np.float64(161.59918497618602)},['INSUFFICIENT_DEPTH']

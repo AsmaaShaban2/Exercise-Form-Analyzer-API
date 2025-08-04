@@ -1,0 +1,15 @@
+{
+  "squats": {
+    "total_reps": 2,
+    "good_form_reps": 0,
+    "common_issues": [
+      "INSUFFICIENT_DEPTH",
+      "INSUFFICIENT_DEPTH"
+    ]
+  },
+  "pushups": {
+    "total_reps": 0,
+    "good_form_reps": 0,
+    "common_issues": []
+  }
+}

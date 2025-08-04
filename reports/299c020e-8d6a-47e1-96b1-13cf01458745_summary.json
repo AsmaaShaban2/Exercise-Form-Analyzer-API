@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "squats": {
+      "total_reps": 2,
+      "good_form_reps": 0,
+      "common_issues": [
+        "INSUFFICIENT_DEPTH",
+        "INSUFFICIENT_DEPTH"
+      ]
+    },
+    "pushups": {
+      "total_reps": 0,
+      "good_form_reps": 0,
+      "common_issues": []
+    }
+  },
+  "frame_data": [
+    {
+      "frame_index": 48,
+      "exercise": "squat",
+      "rep_id": 1,
+      "is_form_ok": false,
+      "angles": {
+        "knee": 160.75467003058893
+      },
+      "issues": [
+        "INSUFFICIENT_DEPTH"
+      ]
+    },
+    {
+      "frame_index": 129,
+      "exercise": "squat",
+      "rep_id": 2,
+      "is_form_ok": false,
+      "angles": {
+        "knee": 161.59918497618602
+      },
+      "issues": [
+        "INSUFFICIENT_DEPTH"
+      ]
+    }
+  ]
+}
