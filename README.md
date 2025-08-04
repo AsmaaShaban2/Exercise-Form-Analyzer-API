@@ -36,7 +36,7 @@ A Flask-based REST API that accepts a short video (≤ 50MB), performs **2D pose
 - Squat: tracks angle between **hip–knee–ankle**
 - Pushup: tracks **shoulder–elbow–wrist**
 <p align="center">
-  <img src="Exercise-Form-Analyzer-API/squat.png" alt="Detecting Landmarks" width="600"/>
+  <img src="squat.png" alt="Detecting Landmarks" width="600"/>
 </p>
 
 ### 4. Form Checks
