@@ -1,0 +1,9 @@
+Flask
+mediapipe
+opencv-python
+numpy
+pandas
+matplotlib
+reportlab
+requests
+pytest
