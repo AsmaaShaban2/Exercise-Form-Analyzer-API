@@ -1,4 +1,4 @@
-# 🏋️Exercise-Form-Analyzer-API
+# 🏋️Exercise-Form-Analyzer-Computer Vision
 A Flask-based REST API that accepts a short video (≤ 50MB), performs **2D pose estimation**, analyzes **squats** and **pushups**, and returns:
 
 - JSON summary
